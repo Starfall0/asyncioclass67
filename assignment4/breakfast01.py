@@ -22,4 +22,5 @@ def main():
     print(f"breakfast is ready in {time()-start} min")
 
 
-main()
+if __name__ == '__main__':
+    main()
