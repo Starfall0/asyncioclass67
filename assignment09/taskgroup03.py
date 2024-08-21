@@ -14,7 +14,7 @@ async def task2():
     # report a message
     print('Hello from coroutine 2')
     # sleep to simulate waiting
-    # await asyncio.sleep(0.5)
+    await asyncio.sleep(0.5)
     # fail with an exception
     raise Exception('Something bad happened')
 

@@ -20,5 +20,5 @@ async def main():
         print(t.result())
 
 if __name__ == '__main__': 
-    # entry potin
+    # entry point
     asyncio.run(main())
